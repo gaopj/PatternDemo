@@ -1,0 +1,11 @@
+package gpj.proxy;
+
+public class Car2 implements Moveable {
+
+	@Override
+	public void move() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

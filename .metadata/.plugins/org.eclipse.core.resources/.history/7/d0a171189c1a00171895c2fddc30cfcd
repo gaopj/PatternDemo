@@ -1,0 +1,27 @@
+package gpj.proxy.myPcopy;
+
+public class Proxy {
+
+	public static Object newProxyInstance(){
+		String rt = "\r\n";
+		String str=
+		"package gpj.proxy.myPcopy;"+rt+
+		"public class $Proxy0 implements Moveable {"+rt+
+		"	public CarTimeProxy(Moveable m) {"+rt+
+		"		super();"+rt+
+		"		this.m = m;"+rt+
+		"	}"+rt+
+		"	private Moveable m;"+rt+
+		"	@Override"+rt+
+		"	public void move() {"+rt+
+		"		long startTime = System.currentTimeMillis();"+rt+
+		"		System.out.println(\"汽车开始行使。。。\");"+rt+
+		"		m.move();"+rt+
+		"		long endTime = System.currentTimeMillis();"+rt+
+		"		System.out.println(\"汽车结束行使。。。 汽车行使时间：\""+rt+
+		"				+(endTime-startTime)+\"毫秒\");"+rt+
+		"	}"+rt+
+		"}"+rt;
+		return null;
+	}
+}

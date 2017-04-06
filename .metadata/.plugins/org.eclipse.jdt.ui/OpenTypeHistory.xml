@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=ProxyPattern/src&lt;gpj.proxy{Moveable.java[Moveable" modifiers="513" timestamp="1491455842510"/>
+<typeInfo handle="=ProxyPattern/G:\/Chrome\/cglib-nodep-2.2.jar&lt;net.sf.cglib.proxy(MethodInterceptor.class[MethodInterceptor" modifiers="1537" timestamp="1299124059354"/>
+<typeInfo handle="=ProxyPattern/G:\/Chrome\/cglib-nodep-2.2.jar&lt;net.sf.cglib.transform(MethodFilter.class[MethodFilter" modifiers="1537" timestamp="1299124059354"/>
+<typeInfo handle="=ProxyPattern/E:\/JAVA\/jre\/lib\/rt.jar&lt;java.lang.reflect(InvocationHandler.class[InvocationHandler" modifiers="1537" timestamp="1490099243525"/>
+<typeInfo handle="=ProxyPattern/src&lt;gpj.myProxy{InvocationHandler.java[InvocationHandler" modifiers="513" timestamp="1491470486397"/>
+<typeInfo handle="=ProxyPattern/E:\/JAVA\/jre\/lib\/rt.jar&lt;javax.script(Invocable.class[Invocable" modifiers="1537" timestamp="1490099243525"/>
+</typeInfoHistroy>

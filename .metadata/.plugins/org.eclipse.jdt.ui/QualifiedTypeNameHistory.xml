@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.awt.event.MouseWheelEvent"/>
+<fullyQualifiedTypeName name="gpj.proxy.Car3"/>
+<fullyQualifiedTypeName name="gpj.proxy.CarTimeProxy"/>
+<fullyQualifiedTypeName name="gpj.proxy.Car"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
+<fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
+<fullyQualifiedTypeName name="gpj.jdkproxy.TimeHandler"/>
+<fullyQualifiedTypeName name="gpj.proxy.Moveable"/>
+<fullyQualifiedTypeName name="net.sf.cglib.proxy.Enhancer"/>
+<fullyQualifiedTypeName name="gpj.cglibproxy.CglibProxy"/>
+<fullyQualifiedTypeName name="gpj.cglibproxy.Train"/>
+<fullyQualifiedTypeName name="gpj.proxy.myPcopy.Proxy"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.tools.JavaCompiler"/>
+<fullyQualifiedTypeName name="javax.tools.ToolProvider"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="javax.tools.JavaCompiler.CompilationTask"/>
+<fullyQualifiedTypeName name="java.lang.ClassLoader"/>
+<fullyQualifiedTypeName name="javax.tools.StandardJavaFileManager"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+<fullyQualifiedTypeName name="gpj.myProxy.Moveable"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="gpj.myProxy.Car"/>
+<fullyQualifiedTypeName name="gpj.myProxy.InvocationHandler"/>
+<fullyQualifiedTypeName name="gpj.myProxy.TimeHandler"/>
+</qualifiedTypeNameHistroy>

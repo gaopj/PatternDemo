@@ -1,0 +1,13 @@
+package gpj.myProxy;
+
+
+public class Client {
+/**
+ * ≤‚ ‘¿‡
+ * @throws Exception 
+ */
+	public static void main(String[] args) throws Exception{
+
+		Proxy.newProxyInstance(Moveable.class);
+	}
+}

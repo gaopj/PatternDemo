@@ -1,0 +1,16 @@
+package gpj.proxy;
+
+/**
+ * 
+ * @author gpj
+ * 聚合方式实现代理
+ */
+public class Car3 implements Moveable {
+	private
+	
+	@Override
+	public void move() {
+		
+	}
+
+}
