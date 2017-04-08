@@ -1,0 +1,23 @@
+package gpj.factory;
+
+/**
+ * 发型工厂
+ * @author gpj
+ *
+ */
+public class HairFactory {
+
+	/**
+	 * 根据类型
+	 * @param key
+	 * @return
+	 */
+	public HairInterface getHair(String key){
+		if("left".equals(key)){
+			return new LeftHair();
+		}else if("right".equals(key)) {
+			return new RightHair();
+		}
+		return null;
+	}
+}

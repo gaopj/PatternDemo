@@ -1,0 +1,5 @@
+package gpj.factory;
+
+public class PropertiesReader {
+
+}

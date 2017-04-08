@@ -1,0 +1,11 @@
+package gpj.factory;
+
+public class Client implements HairInterface {
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package gpj.abstractFactory;
+
+public interface Girl {
+
+}

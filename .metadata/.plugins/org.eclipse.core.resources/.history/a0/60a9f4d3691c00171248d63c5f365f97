@@ -1,0 +1,10 @@
+package gpj.abstractFactory;
+
+public class MCBoy implements Boy {
+
+	@Override
+	public void drawMan() {
+
+	}
+
+}

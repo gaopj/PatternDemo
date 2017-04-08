@@ -1,0 +1,15 @@
+package gpj.factory;
+
+/**
+ * ×óÆ«·Ö·¢ÐÍ
+ * @author gpj
+ *
+ */
+public class LeftHair implements HairInterface {
+
+	@Override
+	public void draw() {
+	
+	}
+
+}

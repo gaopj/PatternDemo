@@ -6,4 +6,10 @@
 <typeInfo handle="=ProxyPattern/E:\/JAVA\/jre\/lib\/rt.jar&lt;java.lang.reflect(InvocationHandler.class[InvocationHandler" modifiers="1537" timestamp="1490099243525"/>
 <typeInfo handle="=ProxyPattern/src&lt;gpj.myProxy{InvocationHandler.java[InvocationHandler" modifiers="513" timestamp="1491470486397"/>
 <typeInfo handle="=ProxyPattern/E:\/JAVA\/jre\/lib\/rt.jar&lt;javax.script(Invocable.class[Invocable" modifiers="1537" timestamp="1490099243525"/>
+<typeInfo handle="=FactoryPattern/src&lt;gpj.factory{HairInterface.java[HairInterface" modifiers="513" timestamp="1491615207014"/>
+<typeInfo handle="=FactoryPattern/E:\/JAVA\/jre\/lib\/rt.jar&lt;java.lang.reflect(GenericArrayType.class[GenericArrayType" modifiers="1537" timestamp="1490099243525"/>
+<typeInfo handle="=FactoryPattern/src&lt;gpj.abstractFactory{Girl.java[Girl" modifiers="513" timestamp="1491662383201"/>
+<typeInfo handle="=FactoryPattern/src&lt;gpj.abstractFactory{Boy.java[Boy" modifiers="513" timestamp="1491662346983"/>
+<typeInfo handle="=FactoryPattern/src&lt;gpj.abstractFactory{PersonFactory.java[PersonFactory" modifiers="513" timestamp="1491662879661"/>
+<typeInfo handle="=FactoryPattern/E:\/JAVA\/jre\/lib\/rt.jar&lt;java.security.acl(Permission.class[Permission" modifiers="1537" timestamp="1490099243525"/>
 </typeInfoHistroy>
