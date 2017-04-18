@@ -1,5 +1,0 @@
-package gpj.factory;
-
-public interface LeftHair extends HairInterface {
-
-}

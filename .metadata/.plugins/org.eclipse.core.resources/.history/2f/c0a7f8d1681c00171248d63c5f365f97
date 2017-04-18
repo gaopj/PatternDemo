@@ -1,8 +1,0 @@
-package gpj.factory;
-
-public class Snippet {
-	public static void main(String[] args) {
-		.factory.RightHair
-	}
-}
-

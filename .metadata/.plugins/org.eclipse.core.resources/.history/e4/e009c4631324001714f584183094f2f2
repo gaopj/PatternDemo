@@ -1,0 +1,29 @@
+package gpj.singletonCrack;
+
+import java.lang.reflect.Constructor;
+
+import gpj.singleton.Singleton;
+
+/**
+ * 测试反射和反序列化破解单例模式
+ * @author gpj
+ *
+ */
+public class Client {
+	public static void main(String[] args) throws Exception {
+		Singleton s1 = Singleton.getInstance();
+		Singleton s2 = Singleton.getInstance();
+		System.out.println(s1);
+		System.out.println(s2);
+		
+		Class<Singleton> class1=  (Class<Singleton>)Class.forName("gpj.singletonCrack.Singleton.class");
+		Constructor<Singleton> c =class1.getConstructor(null);
+		c.setAccessible(true);
+		
+		Singleton s3 = c.newInstance();
+		Singleton s4 = c.newInstance();
+		System.out.println(s3);
+		System.out.println(s4);
+	}
+
+}

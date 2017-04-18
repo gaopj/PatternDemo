@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.awt.event.MouseWheelEvent"/>
-<fullyQualifiedTypeName name="gpj.proxy.Car3"/>
 <fullyQualifiedTypeName name="gpj.proxy.CarTimeProxy"/>
 <fullyQualifiedTypeName name="gpj.proxy.Car"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
@@ -22,18 +18,14 @@
 <fullyQualifiedTypeName name="javax.tools.JavaCompiler.CompilationTask"/>
 <fullyQualifiedTypeName name="java.lang.ClassLoader"/>
 <fullyQualifiedTypeName name="javax.tools.StandardJavaFileManager"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
 <fullyQualifiedTypeName name="gpj.myProxy.Moveable"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="gpj.myProxy.Car"/>
 <fullyQualifiedTypeName name="gpj.myProxy.InvocationHandler"/>
 <fullyQualifiedTypeName name="gpj.myProxy.TimeHandler"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="gpj.factory.LeftHair"/>
 <fullyQualifiedTypeName name="gpj.factory.RightHair"/>
 <fullyQualifiedTypeName name="gpj.factory.HairFactory"/>
-<fullyQualifiedTypeName name="java.lang.Class"/>
 <fullyQualifiedTypeName name="gpj.factory.HairInterface"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -50,4 +42,22 @@
 <fullyQualifiedTypeName name="gpj.abstractFactory.MCFactory"/>
 <fullyQualifiedTypeName name="gpj.abstractFactory.Boy"/>
 <fullyQualifiedTypeName name="gpj.abstractFactory.Girl"/>
+<fullyQualifiedTypeName name="gpj.singleton.Singleton3"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.io.ObjectStreamException"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="gpj.singleton.Singleton"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
+<fullyQualifiedTypeName name="gpj.singleton.SingletonLazy"/>
 </qualifiedTypeNameHistroy>

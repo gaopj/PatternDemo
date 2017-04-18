@@ -1,5 +1,0 @@
-package gpj.proxy.myPcopy;
-
-public interface Moveable {
-	void move();
-}

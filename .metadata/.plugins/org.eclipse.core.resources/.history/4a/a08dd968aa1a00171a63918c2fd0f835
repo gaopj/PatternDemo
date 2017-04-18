@@ -1,5 +1,0 @@
-package gpj.myProxy;
-
-public interface InvocationHandler {
-
-}
