@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="gpj.proxy.CarTimeProxy"/>
-<fullyQualifiedTypeName name="gpj.proxy.Car"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
-<fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
-<fullyQualifiedTypeName name="gpj.jdkproxy.TimeHandler"/>
-<fullyQualifiedTypeName name="gpj.proxy.Moveable"/>
-<fullyQualifiedTypeName name="net.sf.cglib.proxy.Enhancer"/>
-<fullyQualifiedTypeName name="gpj.cglibproxy.CglibProxy"/>
-<fullyQualifiedTypeName name="gpj.cglibproxy.Train"/>
 <fullyQualifiedTypeName name="gpj.proxy.myPcopy.Proxy"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
@@ -57,7 +48,16 @@
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="gpj.singleton.Singleton"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
 <fullyQualifiedTypeName name="gpj.singleton.SingletonLazy"/>
+<fullyQualifiedTypeName name="gpj.adapter.ThreePlug"/>
+<fullyQualifiedTypeName name="gpj.adapter.GBTwoPlug"/>
+<fullyQualifiedTypeName name="gpj.adapter.TwoPlugAdapterExtends"/>
+<fullyQualifiedTypeName name="gpj.adapter.NoteBook"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+<fullyQualifiedTypeName name="gpj.adapter2.Client"/>
+<fullyQualifiedTypeName name="gpj.adapter2.Target"/>
+<fullyQualifiedTypeName name="gpj.adapter2.Adapter"/>
+<fullyQualifiedTypeName name="gpj.adapter2.Adaptee"/>
 </qualifiedTypeNameHistroy>

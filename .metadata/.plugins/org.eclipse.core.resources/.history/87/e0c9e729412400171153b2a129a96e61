@@ -1,0 +1,11 @@
+package gpj.adapter;
+
+public class TwoPlugAdapter implements ThreePlug {
+
+	@Override
+	public void powerWithThree() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

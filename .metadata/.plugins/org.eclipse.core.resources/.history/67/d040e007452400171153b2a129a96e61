@@ -1,0 +1,11 @@
+package gpj.adapter2;
+
+public class Adapter implements Target {
+
+	@Override
+	public void handleReq() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

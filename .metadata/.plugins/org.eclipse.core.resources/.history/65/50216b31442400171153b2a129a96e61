@@ -1,0 +1,15 @@
+package gpj.adapter;
+/**
+ * ²ÉÓÃ¼Ì³Ğ·½Ê½µÄ²å×ùÊÊÅäÆ÷
+ * @author gpj
+ *
+ */
+public class TwoPlugAdapterExtends extends GBTwoPlug implements ThreePlug {
+
+	@Override
+	public void powerWithThree() {
+		System.out.print("½èÖú¼Ì³ĞÊÊÅäÆ÷  ");
+		this.powerWithTwo();
+	}
+
+}

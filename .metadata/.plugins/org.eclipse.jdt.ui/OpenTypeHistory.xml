@@ -12,4 +12,7 @@
 <typeInfo handle="=FactoryPattern/src&lt;gpj.abstractFactory{Boy.java[Boy" modifiers="513" timestamp="1491662346983"/>
 <typeInfo handle="=FactoryPattern/src&lt;gpj.abstractFactory{PersonFactory.java[PersonFactory" modifiers="513" timestamp="1491662879661"/>
 <typeInfo handle="=FactoryPattern/E:\/JAVA\/jre\/lib\/rt.jar&lt;java.security.acl(Permission.class[Permission" modifiers="1537" timestamp="1490099243525"/>
+<typeInfo handle="=AdapterPattern/src&lt;gpj.adapter{GBTwoPlug.java[GBTwoPlug" modifiers="1" timestamp="1492524795310"/>
+<typeInfo handle="=AdapterPattern/src&lt;gpj.adapter{ThreePlug.java[ThreePlug" modifiers="513" timestamp="1492524795247"/>
+<typeInfo handle="=AdapterPattern/src&lt;gpj.adapter2{Target.java[Target" modifiers="513" timestamp="1492526039629"/>
 </typeInfoHistroy>

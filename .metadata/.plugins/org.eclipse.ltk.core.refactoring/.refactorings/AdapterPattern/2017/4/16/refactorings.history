@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Adapter.java&apos; to &apos;AdapterPattern/src/gpj.adapter2&apos;&#x0D;&#x0A;- Original project: &apos;AdapterPattern&apos;&#x0D;&#x0A;- Destination element: &apos;AdapterPattern/src/gpj.adapter2&apos;&#x0D;&#x0A;- Original element: &apos;gpj.adapter2.Adapter.java&apos;" description="Copy compilation unit" destination="/src&lt;gpj.adapter2" element1="/src&lt;gpj.adapter2{Adapter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1492526541259" units="1" version="1.0"/>
+</session>
