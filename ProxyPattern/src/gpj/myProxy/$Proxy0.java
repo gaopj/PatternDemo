@@ -1,4 +1,4 @@
-package gpj.myProxy;
+ï»¿package gpj.myProxy;
 public class $Proxy0 implements Moveable{
 	public $Proxy0(gpj.myProxy.Moveable m) {
 		super();
@@ -8,10 +8,10 @@ public class $Proxy0 implements Moveable{
 	@Override
 	public void move() {
 		long startTime = System.currentTimeMillis();
-		System.out.println("Æû³µ¿ªÊ¼ĞĞÊ¹¡£¡£¡£");
+		System.out.println("æ±½è½¦å¼€å§‹è¡Œä½¿ã€‚ã€‚ã€‚");
 		m.move();
 		long endTime = System.currentTimeMillis();
-		System.out.println("Æû³µ½áÊøĞĞÊ¹¡£¡£¡£ Æû³µĞĞÊ¹Ê±¼ä£º"
-				+(endTime-startTime)+"ºÁÃë");
+		System.out.println("æ±½è½¦ç»“æŸè¡Œä½¿ã€‚ã€‚ã€‚ æ±½è½¦è¡Œä½¿æ—¶é—´ï¼š"
+				+(endTime-startTime)+"æ¯«ç§’");
 	}
 }

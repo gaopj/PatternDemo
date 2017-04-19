@@ -1,4 +1,4 @@
-package gpj.myProxy;
+ï»¿package gpj.myProxy;
 
 import java.util.Random;
 
@@ -7,10 +7,10 @@ public class Car implements Moveable {
 	@Override
 	public void move() {
 
-		//ÊµÏÖ¿ª³µ
+		//å®žçŽ°å¼€è½¦
 		try {
 			Thread.sleep(new Random().nextInt(1000));
-			System.out.println("Æû³µÐÐÊ¹ÖÐ¡£¡£¡£");
+			System.out.println("æ±½è½¦è¡Œä½¿ä¸­ã€‚ã€‚ã€‚");
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

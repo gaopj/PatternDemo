@@ -1,7 +1,7 @@
-package gpj.abstractFactory;
+﻿package gpj.abstractFactory;
 
 /**
- * ʥ��ϵ�мӹ���
+ * 圣诞系列加工厂
  * @author gpj
  *
  */

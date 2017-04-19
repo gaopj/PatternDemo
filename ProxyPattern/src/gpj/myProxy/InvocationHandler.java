@@ -1,4 +1,4 @@
-package gpj.myProxy;
+﻿package gpj.myProxy;
 
 import java.lang.reflect.Method;
 

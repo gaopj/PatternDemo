@@ -1,15 +1,15 @@
-package gpj.abstractFactory;
+ï»¿package gpj.abstractFactory;
 
 /**
- * ÈËÎïµÄÊµÏÖ½Ó¿Ú
+ * äººç‰©çš„å®ç°æ¥å£
  * @author gpj
  *
  */
 public interface PersonFactory {
 
-	//ÄĞº¢½Ó¿Ú
+	//ç”·å­©æ¥å£
 	public Boy getBoy();
 	
-	//Å®º¢½Ó¿Ú
+	//å¥³å­©æ¥å£
 	public Girl getGirl();
 }

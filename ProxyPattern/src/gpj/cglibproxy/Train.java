@@ -1,7 +1,7 @@
-package gpj.cglibproxy;
+ï»¿package gpj.cglibproxy;
 
 public class Train {
 	public void move(){
-		System.out.println("»ğ³µĞĞÊ¹ÖĞ¡£¡£¡£");
+		System.out.println("ç«è½¦è¡Œä½¿ä¸­ã€‚ã€‚ã€‚");
 	}
 }

@@ -1,4 +1,4 @@
-package gpj.jdkproxy;
+ï»¿package gpj.jdkproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -12,24 +12,24 @@ public class TimeHandler implements InvocationHandler {
 
 	private Object target;
 	/**
-	 * …¢”µ£º
-	 * proxy:±»´úÀí¶ÔÏó
-	 * method:±»´úÀí·½·¨
-	 * args: ·½·¨²ÎÊı
+	 * åƒæ•¸ï¼š
+	 * proxy:è¢«ä»£ç†å¯¹è±¡
+	 * method:è¢«ä»£ç†æ–¹æ³•
+	 * args: æ–¹æ³•å‚æ•°
 	 * 
-	 * ·µ»ØÖµ£º
-	 * Object ·½·¨·µ»ØÖµ
+	 * è¿”å›å€¼ï¼š
+	 * Object æ–¹æ³•è¿”å›å€¼
 	 */
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		long startTime = System.currentTimeMillis();
-		System.out.println("Æû³µ¿ªÊ¼ĞĞÊ¹¡£¡£¡£");
+		System.out.println("æ±½è½¦å¼€å§‹è¡Œä½¿ã€‚ã€‚ã€‚");
 		
 		method.invoke(target);
 		
 		long endTime = System.currentTimeMillis();
-		System.out.println("Æû³µ½áÊøĞĞÊ¹¡£¡£¡£ Æû³µĞĞÊ¹Ê±¼ä£º"
-				+(endTime-startTime)+"ºÁÃë");
+		System.out.println("æ±½è½¦ç»“æŸè¡Œä½¿ã€‚ã€‚ã€‚ æ±½è½¦è¡Œä½¿æ—¶é—´ï¼š"
+				+(endTime-startTime)+"æ¯«ç§’");
 		return null;
 	}
 

@@ -1,4 +1,4 @@
-package gpj.factory;
+ï»¿package gpj.factory;
 
 import java.io.InputStream;
 import java.util.Enumeration;
@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * properties ÎÄ¼ş¶ÁÈ¡¹¤¾ßÀà
+ * properties æ–‡ä»¶è¯»å–å·¥å…·ç±»
  * @author gpj
  *
  */

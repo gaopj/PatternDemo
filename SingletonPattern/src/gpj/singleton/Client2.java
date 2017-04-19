@@ -1,9 +1,9 @@
-package gpj.singleton;
+ï»¿package gpj.singleton;
 
 import java.util.concurrent.CountDownLatch;
 
 /**
- * ±È½ÏÎåÖĞµ¥ÀıÄ£Ê½
+ * æ¯”è¾ƒäº”ä¸­å•ä¾‹æ¨¡å¼
  * @author gpj
  *
  */
@@ -30,10 +30,10 @@ public class Client2 {
 			}).start();
 		}
 		
-		countDownLatch.await();//mainÏß³Ì×èÈû£¬Ö±µ½¼ÆÊıÆ÷±äÎª0£¬²Å»á¼ÌĞøÍùÏÂÖ´ĞĞ£¡
+		countDownLatch.await();//mainçº¿ç¨‹é˜»å¡ï¼Œç›´åˆ°è®¡æ•°å™¨å˜ä¸º0ï¼Œæ‰ä¼šç»§ç»­å¾€ä¸‹æ‰§è¡Œï¼
 		long end = System.currentTimeMillis();
 	
-		System.out.println("×ÜºÄÊ±£º "+(end-start));
+		System.out.println("æ€»è€—æ—¶ï¼š "+(end-start));
 	}
 
 }

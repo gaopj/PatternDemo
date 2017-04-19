@@ -1,4 +1,4 @@
-package gpj.abstractFactory;
+﻿package gpj.abstractFactory;
 
 public interface Girl {
 

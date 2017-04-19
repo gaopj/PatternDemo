@@ -1,9 +1,9 @@
-package gpj.proxy;
+ï»¿package gpj.proxy;
 
 /**
  * 
  * @author gpj
- * ¾ÛºÏ·½Ê½ÊµÏÖ´úÀí
+ * èšåˆæ–¹å¼å®ç°ä»£ç†
  */
 public class CarTimeProxy implements Moveable {
 	public CarTimeProxy(Moveable m) {
@@ -18,11 +18,11 @@ public class CarTimeProxy implements Moveable {
 	@Override
 	public void move() {
 		long startTime = System.currentTimeMillis();
-		System.out.println("Æû³µ¿ªÊ¼ĞĞÊ¹¡£¡£¡£");
+		System.out.println("æ±½è½¦å¼€å§‹è¡Œä½¿ã€‚ã€‚ã€‚");
 		m.move();
 		long endTime = System.currentTimeMillis();
-		System.out.println("Æû³µ½áÊøĞĞÊ¹¡£¡£¡£ Æû³µĞĞÊ¹Ê±¼ä£º"
-				+(endTime-startTime)+"ºÁÃë");
+		System.out.println("æ±½è½¦ç»“æŸè¡Œä½¿ã€‚ã€‚ã€‚ æ±½è½¦è¡Œä½¿æ—¶é—´ï¼š"
+				+(endTime-startTime)+"æ¯«ç§’");
 	}
 
 }

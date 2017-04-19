@@ -1,4 +1,4 @@
-package gpj.myProxy;
+ï»¿package gpj.myProxy;
 
 import java.io.File;
 import java.lang.reflect.Constructor;
@@ -38,32 +38,32 @@ public class Proxy {
 		methodStr+rt+
 		"}"+rt;
 		
-		//²úÉú´úÀíÀàµÄjavaÎÄ¼ş
+		//äº§ç”Ÿä»£ç†ç±»çš„javaæ–‡ä»¶
 		String filename = System.getProperty("user.dir")+"/bin/gpj/myProxy/$Proxy0.java";
 		System.out.println(filename);
 		
 		File file = new File(filename);
 		FileUtils.writeStringToFile(file, str);
 		
-		//±àÒë
-		//ÄÃµ½±àÒëÆ÷
+		//ç¼–è¯‘
+		//æ‹¿åˆ°ç¼–è¯‘å™¨
 		JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
-		//ÎÄ¼ş¹ÜÀíÕß
+		//æ–‡ä»¶ç®¡ç†è€…
 		StandardJavaFileManager fileManager 
 				= compiler.getStandardFileManager(null, null, null);
 		
-		//»ñÈ¡ÎÄ¼ş
+		//è·å–æ–‡ä»¶
 		Iterable units= fileManager.getJavaFileObjects(filename);
 		
-		//±àÒëÈÎÎñ
+		//ç¼–è¯‘ä»»åŠ¡
 		//compiler.getTask(out, fileManager, diagnosticListener, options, classes, compilationUnits)
 		 CompilationTask t=compiler.getTask(null, fileManager, null, null, null, units);
 		 
-		 //½øĞĞ±àÒë
+		 //è¿›è¡Œç¼–è¯‘
 		 t.call();
 		 fileManager.close();
 		 
-		 //¼ÓÔØµ½ÄÚ´æ
+		 //åŠ è½½åˆ°å†…å­˜
 		 ClassLoader classLoader = ClassLoader.getSystemClassLoader();
 		 Class class1 = classLoader.loadClass("gpj.proxy.$Proxy0");
 		 

@@ -1,6 +1,6 @@
-package gpj.adapter2;
+ï»¿package gpj.adapter2;
 /**
- * ÊÊÅäÆ÷
+ * é€‚é…å™¨
  * @author gpj
  *
  */
@@ -14,7 +14,7 @@ public class Adapter2 implements Target {
 	}
 	@Override
 	public void handleReq() {
-		System.out.print("Ê¹ÓÃ×éºÏ£º  ");
+		System.out.print("ä½¿ç”¨ç»„åˆï¼š  ");
 		adaptee.request();
 	}
 

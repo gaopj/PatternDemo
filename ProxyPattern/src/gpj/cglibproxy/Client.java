@@ -1,4 +1,4 @@
-package gpj.cglibproxy;
+﻿package gpj.cglibproxy;
 
 public class Client {
 

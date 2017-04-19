@@ -1,10 +1,10 @@
-package gpj.abstractFactory;
+ï»¿package gpj.abstractFactory;
 
 public class MCGirl implements Girl {
 
 	@Override
 	public void drawWoman() {
-		System.out.println("Ê¥µ®ÏµÁÐÅ®º¢");
+		System.out.println("åœ£è¯žç³»åˆ—å¥³å­©");
 	}
 
 }

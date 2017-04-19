@@ -1,10 +1,10 @@
-package gpj.abstractFactory;
+ï»¿package gpj.abstractFactory;
 
 public class HNBoy implements Boy {
 
 	@Override
 	public void drawMan() {
-		System.out.println("Ôªµ©ÏµÁÐÄÐº¢");
+		System.out.println("å…ƒæ—¦ç³»åˆ—ç”·å­©");
 	}
 
 }

@@ -1,4 +1,4 @@
-package gpj.proxy;
+﻿package gpj.proxy;
 
 public interface Moveable {
 	void move();

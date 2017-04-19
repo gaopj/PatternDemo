@@ -1,17 +1,17 @@
-package gpj.singleton;
+ï»¿package gpj.singleton;
 /**
- * ÀÁººÄ£Ê½
+ * æ‡’æ±‰æ¨¡å¼
  * @author gpj
  *
  */
 public class SingletonLazy {
-	//1.½«¹¹Ôì·½·¨Ë½ÓĞ»¯
+	//1.å°†æ„é€ æ–¹æ³•ç§æœ‰åŒ–
 	private  SingletonLazy() {}
 
-	//2.³õÊ¼»¯Ê±£¬²»³õÊ¼»¯Õâ¸ö¶ÔÏó£¨ÑÓÊ±¼ÓÔØ£¬ÕæÕıÓÃµÄÊ±ºòÔÙ´´½¨£©
+	//2.åˆå§‹åŒ–æ—¶ï¼Œä¸åˆå§‹åŒ–è¿™ä¸ªå¯¹è±¡ï¼ˆå»¶æ—¶åŠ è½½ï¼ŒçœŸæ­£ç”¨çš„æ—¶å€™å†åˆ›å»ºï¼‰
 	private static SingletonLazy instance ;
 	
-	//3.Ìá¹©Ò»¸öÓÃÓÚ»ñÈ¡ÊµÀıµÄ·½·¨
+	//3.æä¾›ä¸€ä¸ªç”¨äºè·å–å®ä¾‹çš„æ–¹æ³•
 //	public static SingletonLazy getInstance() {
 //		if(instance==null)
 //		{
@@ -20,7 +20,7 @@ public class SingletonLazy {
 //		return instance;
 //	}
 	
-	//·½·¨Í¬²½£¬µ÷ÓÃĞ§ÂÊµÍ
+	//æ–¹æ³•åŒæ­¥ï¼Œè°ƒç”¨æ•ˆç‡ä½
 	public static synchronized SingletonLazy getInstance() {
 		if(instance==null)
 		{

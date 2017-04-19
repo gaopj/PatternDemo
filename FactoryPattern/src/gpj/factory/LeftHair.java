@@ -1,18 +1,18 @@
-package gpj.factory;
+ï»¿package gpj.factory;
 
 /**
- * ×óÆ«·Ö·¢ĞÍ
+ * å·¦ååˆ†å‘å‹
  * @author gpj
  *
  */
 public class LeftHair implements HairInterface {
 
 	/**
-	 * »­×óÆ«·Ö·¢ĞÍ
+	 * ç”»å·¦ååˆ†å‘å‹
 	 */
 	@Override
 	public void draw() {
-	System.out.println("»­¸ö×óÆ«·Ö");
+	System.out.println("ç”»ä¸ªå·¦ååˆ†");
 	}
 
 }

@@ -1,4 +1,4 @@
-package gpj.adapter;
+ï»¿package gpj.adapter;
 
 public class NoteBook {
 
@@ -10,7 +10,7 @@ public class NoteBook {
 	}
 	
 	
-	//  Ê¹ÓÃ²å×ù³äµç 
+	//  ä½¿ç”¨æ’åº§å……ç”µ 
 	public void charge() {
 		plug.powerWithThree();
 	}

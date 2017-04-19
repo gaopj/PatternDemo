@@ -1,7 +1,7 @@
-package gpj.factory;
+ï»¿package gpj.factory;
 
 /**
- * Ä£Äâ¿Í»§¶ËÊµÏÖ
+ * æ¨¡æ‹Ÿå®¢æˆ·ç«¯å®ç°
  * 
  * @author gpj
  *

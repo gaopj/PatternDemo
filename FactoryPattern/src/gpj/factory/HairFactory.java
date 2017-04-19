@@ -1,16 +1,16 @@
-package gpj.factory;
+ï»¿package gpj.factory;
 
 import java.util.Map;
 
 /**
- * ·¢ĞÍ¹¤³§
+ * å‘å‹å·¥å‚
  * @author gpj
  *
  */
 public class HairFactory {
 
 	/**
-	 * ¸ù¾İÀàĞÍ
+	 * æ ¹æ®ç±»å‹
 	 * @param key
 	 * @return
 	 */
@@ -24,7 +24,7 @@ public class HairFactory {
 	}
 	
 	/**
-	 * ¸ù¾İÀàµÄÃû³ÆÀ´Éú²ú¶ÔÏó£¨·´Éä£©
+	 * æ ¹æ®ç±»çš„åç§°æ¥ç”Ÿäº§å¯¹è±¡ï¼ˆåå°„ï¼‰
 	 * @param className
 	 * @return
 	 */

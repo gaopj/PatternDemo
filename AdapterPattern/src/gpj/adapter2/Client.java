@@ -1,9 +1,9 @@
-package gpj.adapter2;
+锘縫ackage gpj.adapter2;
 
 
 
 /**
- * 客户端类
+ * 瀹㈡埛绔被
  * @author gpj
  *
  */

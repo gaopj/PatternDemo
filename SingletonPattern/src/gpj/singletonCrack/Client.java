@@ -1,4 +1,4 @@
-package gpj.singletonCrack;
+ï»¿package gpj.singletonCrack;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,7 +8,7 @@ import java.lang.reflect.Constructor;
 
 
 /**
- * ²âÊÔ·´ÉäºÍ·´ĞòÁĞ»¯ÆÆ½âµ¥ÀıÄ£Ê½
+ * æµ‹è¯•åå°„å’Œååºåˆ—åŒ–ç ´è§£å•ä¾‹æ¨¡å¼
  * @author gpj
  *
  */
@@ -19,7 +19,7 @@ public class Client {
 		System.out.println(s1);
 		System.out.println(s2);
 		
-		//Í¨¹ı·´ÉäµÄ·½Ê½Ö±½Óµ÷ÓÃË½ÓĞ¹¹ÔìÆ÷
+		//é€šè¿‡åå°„çš„æ–¹å¼ç›´æ¥è°ƒç”¨ç§æœ‰æ„é€ å™¨
 //		Class<Singleton> class1=  (Class<Singleton>)Class.forName("gpj.singletonCrack.Singleton");
 //		Constructor<Singleton> c =class1.getDeclaredConstructor(null);
 //		c.setAccessible(true);
@@ -29,7 +29,7 @@ public class Client {
 //		System.out.println(s3);
 //		System.out.println(s4);
 		
-		//Í¨¹ı·´ĞòÁĞ»¯µÄ·½Ê½¹¹Ôì¶à¸ö¶ÔÏó
+		//é€šè¿‡ååºåˆ—åŒ–çš„æ–¹å¼æ„é€ å¤šä¸ªå¯¹è±¡
 		Singleton2 s5 = Singleton2.getInstance();
 		FileOutputStream fos = new FileOutputStream("./src/gpj/singletonCrack/singleton.txt");
 		ObjectOutputStream oos= new ObjectOutputStream(fos);

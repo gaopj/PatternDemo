@@ -1,12 +1,12 @@
-package gpj.adapter2;
+锘縫ackage gpj.adapter2;
 /**
- * 被适配的类
+ * 琚�傞厤鐨勭被
  * @author gpj
  *
  */
 public class Adaptee {
 	public void request()
 	{
-		System.out.println("可以完成客户需要的功能");
+		System.out.println("鍙互瀹屾垚瀹㈡埛闇�瑕佺殑鍔熻兘");
 	}
 }

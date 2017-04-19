@@ -1,27 +1,27 @@
-package gpj.singletonCrack;
+ï»¿package gpj.singletonCrack;
 
 /**
- * ÈçºÎ·ÀÖ¹·´ÉäÂ©¶´
- * µ¥ÀıÄ£Ê½ 
- * ¶öººÄ£Ê½
- * Àà³õÊ¼»¯Ê±£¬Á¢¼´¼ÓÔØ¶ÔÏó£¨ÎŞ·¨ÑÓÊ±¼ÓÔØ£©¡£Àà¼ÓÔØÊ±£¬Ïß³ÌÊÇ°²È«µÄ£»
+ * å¦‚ä½•é˜²æ­¢åå°„æ¼æ´
+ * å•ä¾‹æ¨¡å¼ 
+ * é¥¿æ±‰æ¨¡å¼
+ * ç±»åˆå§‹åŒ–æ—¶ï¼Œç«‹å³åŠ è½½å¯¹è±¡ï¼ˆæ— æ³•å»¶æ—¶åŠ è½½ï¼‰ã€‚ç±»åŠ è½½æ—¶ï¼Œçº¿ç¨‹æ˜¯å®‰å…¨çš„ï¼›
  * @author gpj
  *
  */
 public class Singleton {
 
 
-	//1.½«¹¹Ôì·½·¨Ë½ÓĞ»¯
+	//1.å°†æ„é€ æ–¹æ³•ç§æœ‰åŒ–
 	private Singleton(){
 //		if(instance!=null){
 //			throw new RuntimeException();
 //		}
 	}
 	
-	//2.´´½¨ÀàµÄÎ¨Ò»ÊµÀı
+	//2.åˆ›å»ºç±»çš„å”¯ä¸€å®ä¾‹
 	private static Singleton instance = new Singleton();
 	
-	//3.Ìá¹©Ò»¸öÓÃÓÚ»ñÈ¡ÊµÀıµÄ·½·¨
+	//3.æä¾›ä¸€ä¸ªç”¨äºè·å–å®ä¾‹çš„æ–¹æ³•
 	public static Singleton getInstance() {
 		return instance;
 	}

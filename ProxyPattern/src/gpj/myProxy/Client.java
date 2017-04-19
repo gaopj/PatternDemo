@@ -1,9 +1,9 @@
-package gpj.myProxy;
+ï»¿package gpj.myProxy;
 
 
 public class Client {
 /**
- * ²âÊÔÀà
+ * æµ‹è¯•ç±»
  * @throws Exception 
  */
 	public static void main(String[] args) throws Exception{

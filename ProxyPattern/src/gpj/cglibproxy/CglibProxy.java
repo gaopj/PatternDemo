@@ -1,4 +1,4 @@
-package gpj.cglibproxy;
+ï»¿package gpj.cglibproxy;
 
 import java.lang.reflect.Method;
 
@@ -11,27 +11,27 @@ public class CglibProxy implements MethodInterceptor {
 	private Enhancer enhancer = new Enhancer();
 	
 	public Object getProxy(Class<?> class1){
-		//ÉèÖÃ´´½¨×ÓÀàµÄÀà£¬È·¶¨ÎªÄÇ¸öÀàÉú³É´úÀíÀà
+		//è®¾ç½®åˆ›å»ºå­ç±»çš„ç±»ï¼Œç¡®å®šä¸ºé‚£ä¸ªç±»ç”Ÿæˆä»£ç†ç±»
 		enhancer.setSuperclass(class1);
 		enhancer.setCallback(this);
 		
 		return enhancer.create();
 	}
 	/**
-	 * À¹½ØËùÓĞÄ¿±êÀà·½·¨µÄµ÷ÓÃ
-	 * obj:Ä¿±êÀàµÄÊµÀı
-	 * method£ºÄ¿±ê·½·¨µÄ·´Éä¶ÔÏó
-	 * args: ·½·¨µÄ²ÎÊı
-	 * proxy:´úÀíÀàµÄÊµÀı
+	 * æ‹¦æˆªæ‰€æœ‰ç›®æ ‡ç±»æ–¹æ³•çš„è°ƒç”¨
+	 * obj:ç›®æ ‡ç±»çš„å®ä¾‹
+	 * methodï¼šç›®æ ‡æ–¹æ³•çš„åå°„å¯¹è±¡
+	 * args: æ–¹æ³•çš„å‚æ•°
+	 * proxy:ä»£ç†ç±»çš„å®ä¾‹
 	 *
 	 */
 	@Override
 	public Object intercept(Object obj, Method m, Object[] args, MethodProxy proxy) throws Throwable {
-		System.out.println("ÈÕÖ¾¿ªÊ¼¡£¡£¡£");
-		//´úÀíÀàµ÷ÓÃ¸¸ÀàµÄ·½·¨
+		System.out.println("æ—¥å¿—å¼€å§‹ã€‚ã€‚ã€‚");
+		//ä»£ç†ç±»è°ƒç”¨çˆ¶ç±»çš„æ–¹æ³•
 		proxy.invokeSuper(obj, args);
 		
-		System.out.println("ÈÕÖ¾½áÊø¡£¡£¡£");
+		System.out.println("æ—¥å¿—ç»“æŸã€‚ã€‚ã€‚");
 		return null;
 	}
 

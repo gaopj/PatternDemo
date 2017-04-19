@@ -1,7 +1,7 @@
-package gpj.adapter;
+锘縫ackage gpj.adapter;
 
 /**
- * 三相插座接口
+ * 涓夌浉鎻掑骇鎺ュ彛
  * @author gpj
  *
  */

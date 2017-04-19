@@ -1,26 +1,26 @@
-package gpj.proxy;
+ï»¿package gpj.proxy;
 
 
 public class Client {
 /**
- * ²âÊÔÀà
+ * æµ‹è¯•ç±»
  */
 	public static void main(String[] args)
 	{
 //		Car car = new Car();
 //		car.move();
-		//Ê¹ÓÃ¼Ì³Ğ·½·¨£¨²»ÍÆ¼ö£©
+		//ä½¿ç”¨ç»§æ‰¿æ–¹æ³•ï¼ˆä¸æ¨èï¼‰
 //		Moveable moveable = new Car2();
 //		moveable.move();
 		
-		//Ê¹ÓÃ¾ÛºÏ·½·¨
-		//ÏÈÈÕÖ¾ºóÊ±¼ä
+		//ä½¿ç”¨èšåˆæ–¹æ³•
+		//å…ˆæ—¥å¿—åæ—¶é—´
 //		Car car = new Car();
 //		CarTimeProxy carTimeProxy = new CarTimeProxy(car);
 //		CarLogProxy carLogProxy = new CarLogProxy(carTimeProxy);
 //		carLogProxy.move();
 		
-		//ÏÈÊ±¼äºóÈÕÖ¾
+		//å…ˆæ—¶é—´åæ—¥å¿—
 		Car car = new Car();
 		CarLogProxy carLogProxy = new CarLogProxy(car);
 		CarTimeProxy carTimeProxy = new CarTimeProxy(carLogProxy);

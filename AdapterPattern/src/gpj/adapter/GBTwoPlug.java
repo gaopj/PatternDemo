@@ -1,12 +1,12 @@
-package gpj.adapter;
+锘縫ackage gpj.adapter;
 /**
- * 国标二相插座
+ * 鍥芥爣浜岀浉鎻掑骇
  * @author gpj
  *
  */
 public class GBTwoPlug {
 	public void powerWithTwo()
 	{
-		System.out.println("使用二相电流供电");
+		System.out.println("浣跨敤浜岀浉鐢垫祦渚涚數");
 	}
 }

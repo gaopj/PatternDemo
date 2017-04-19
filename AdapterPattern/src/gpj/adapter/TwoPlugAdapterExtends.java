@@ -1,7 +1,7 @@
-package gpj.adapter;
+ï»¿package gpj.adapter;
 /**
- * ²ÉÓÃ¼Ì³Ğ·½Ê½µÄ²å×ùÊÊÅäÆ÷³ÆÎªÀàÊÊÅäÆ÷
- * Í¨¹ı¶àÖØ¼Ì³Ğ²»¼æÈİ½Ó¿Ú£¬ÊµÏÖ¶ÔÄ¿±ê½Ó¿ÚµÄÆ¥Åä£¬µ¥Ò»ÎªÄ³¸öÀà¶ùÊµÏÖÊÊÅä
+ * é‡‡ç”¨ç»§æ‰¿æ–¹å¼çš„æ’åº§é€‚é…å™¨ç§°ä¸ºç±»é€‚é…å™¨
+ * é€šè¿‡å¤šé‡ç»§æ‰¿ä¸å…¼å®¹æ¥å£ï¼Œå®ç°å¯¹ç›®æ ‡æ¥å£çš„åŒ¹é…ï¼Œå•ä¸€ä¸ºæŸä¸ªç±»å„¿å®ç°é€‚é…
  * @author gpj
  *
  */
@@ -9,7 +9,7 @@ public class TwoPlugAdapterExtends extends GBTwoPlug implements ThreePlug {
 
 	@Override
 	public void powerWithThree() {
-		System.out.print("½èÖú¼Ì³ĞÊÊÅäÆ÷  ");
+		System.out.print("å€ŸåŠ©ç»§æ‰¿é€‚é…å™¨  ");
 		this.powerWithTwo();
 	}
 

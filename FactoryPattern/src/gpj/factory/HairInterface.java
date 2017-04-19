@@ -1,7 +1,7 @@
-package gpj.factory;
+锘縫ackage gpj.factory;
 
 /**
- * 发型接口
+ * 鍙戝瀷鎺ュ彛
  * @author gpj
  *
  */

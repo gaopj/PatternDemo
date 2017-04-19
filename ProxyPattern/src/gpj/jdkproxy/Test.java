@@ -1,4 +1,4 @@
-package gpj.jdkproxy;
+ï»¿package gpj.jdkproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
@@ -8,7 +8,7 @@ import gpj.proxy.Moveable;
 
 public class Test {
 /**
- * JDK¶¯Ì¬´úÀí²âÊÔ
+ * JDKåŠ¨æ€ä»£ç†æµ‹è¯•
  */
 	public static void main(String[] args)
 	{
@@ -16,20 +16,20 @@ public class Test {
 		InvocationHandler handler =new TimeHandler(car);
 		Class<?> class1 = car.getClass();
 		/**
-		 * loader ±»´úÀíÀàÀà¼ÓÔØÆ÷
-		 * interfaces ÊµÏÖ½Ó¿Ú
+		 * loader è¢«ä»£ç†ç±»ç±»åŠ è½½å™¨
+		 * interfaces å®ç°æ¥å£
 		 * h InvocationHandler
 		 * 
-		 * ¶¯Ì¬´úÀíÊµÏÖË¼Â·
-		 * ÊµÏÖ¹¦ÄÜ£ºÍ¨¹ıProxyµÄnewProxyInstance·½·¨·µ»Ø´úÀí¶ÔÏó
-		 * 1.ÉùÃ÷Ò»¶ÎÔ´Âë£¨¶¯Ì¬Éú³É´úÀíÀà£©
-		 * 2¡¢±àÒëÔ´Âë£¨JDK Compiler API£©,²úÉúĞÂµÄÀà£¨´úÀíÀà£©
-		 * 3¡¢½«Õâ¸öÀàloadµ½ÄÚ´æÖĞ£¬²úÉúĞÂµÄ¶ÔÏó£¨´úÀí¶ÔÏó£©
-		 * 4¡¢return ´úÀí¶ÔÏó
+		 * åŠ¨æ€ä»£ç†å®ç°æ€è·¯
+		 * å®ç°åŠŸèƒ½ï¼šé€šè¿‡Proxyçš„newProxyInstanceæ–¹æ³•è¿”å›ä»£ç†å¯¹è±¡
+		 * 1.å£°æ˜ä¸€æ®µæºç ï¼ˆåŠ¨æ€ç”Ÿæˆä»£ç†ç±»ï¼‰
+		 * 2ã€ç¼–è¯‘æºç ï¼ˆJDK Compiler APIï¼‰,äº§ç”Ÿæ–°çš„ç±»ï¼ˆä»£ç†ç±»ï¼‰
+		 * 3ã€å°†è¿™ä¸ªç±»loadåˆ°å†…å­˜ä¸­ï¼Œäº§ç”Ÿæ–°çš„å¯¹è±¡ï¼ˆä»£ç†å¯¹è±¡ï¼‰
+		 * 4ã€return ä»£ç†å¯¹è±¡
 		 */
 		 Moveable moveable= (Moveable)Proxy.newProxyInstance(class1.getClassLoader(), 
 				class1.getInterfaces(), handler);
-		 System.out.println("´úÀí"+moveable.getClass().getName());
+		 System.out.println("ä»£ç†"+moveable.getClass().getName());
 		 moveable.move();
 	}
 }

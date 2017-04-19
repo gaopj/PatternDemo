@@ -1,9 +1,9 @@
-package gpj.proxy;
+ï»¿package gpj.proxy;
 
 /**
  * 
  * @author gpj
- * ¾ÛºÏ·½Ê½ÊµÏÖ´úÀí
+ * èšåˆæ–¹å¼å®ç°ä»£ç†
  */
 public class CarLogProxy implements Moveable {
 	public CarLogProxy(Moveable m) {
@@ -17,9 +17,9 @@ public class CarLogProxy implements Moveable {
 	
 	@Override
 	public void move() {
-		System.out.println("ÈÕÖ¾¿ªÊ¼¡£¡£¡£");
+		System.out.println("æ—¥å¿—å¼€å§‹ã€‚ã€‚ã€‚");
 		m.move();
-		System.out.println("ÈÕÖ¾½áÊø¡£¡£¡£");
+		System.out.println("æ—¥å¿—ç»“æŸã€‚ã€‚ã€‚");
 	}
 
 }

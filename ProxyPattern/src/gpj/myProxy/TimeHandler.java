@@ -1,4 +1,4 @@
-package gpj.myProxy;
+ï»¿package gpj.myProxy;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -17,11 +17,11 @@ public class TimeHandler implements InvocationHandler {
 	
 		try {
 			long startTime = System.currentTimeMillis();
-			System.out.println("Æû³µ¿ªÊ¼ĞĞÊ¹¡£¡£¡£");
+			System.out.println("æ±½è½¦å¼€å§‹è¡Œä½¿ã€‚ã€‚ã€‚");
 			m.invoke(target);
 			long endTime = System.currentTimeMillis();
-			System.out.println("Æû³µ½áÊøĞĞÊ¹¡£¡£¡£ Æû³µĞĞÊ¹Ê±¼ä£º"
-					+(endTime-startTime)+"ºÁÃë");
+			System.out.println("æ±½è½¦ç»“æŸè¡Œä½¿ã€‚ã€‚ã€‚ æ±½è½¦è¡Œä½¿æ—¶é—´ï¼š"
+					+(endTime-startTime)+"æ¯«ç§’");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

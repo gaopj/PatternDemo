@@ -1,35 +1,35 @@
-package gpj.singletonCrack;
+ï»¿package gpj.singletonCrack;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;
 
 /**
- * ÈçºÎ·ÀÖ¹·´ĞòÁĞ»¯Â©¶´
- * µ¥ÀıÄ£Ê½ 
- * ¶öººÄ£Ê½
- * Àà³õÊ¼»¯Ê±£¬Á¢¼´¼ÓÔØ¶ÔÏó£¨ÎŞ·¨ÑÓÊ±¼ÓÔØ£©¡£Àà¼ÓÔØÊ±£¬Ïß³ÌÊÇ°²È«µÄ£»
+ * å¦‚ä½•é˜²æ­¢ååºåˆ—åŒ–æ¼æ´
+ * å•ä¾‹æ¨¡å¼ 
+ * é¥¿æ±‰æ¨¡å¼
+ * ç±»åˆå§‹åŒ–æ—¶ï¼Œç«‹å³åŠ è½½å¯¹è±¡ï¼ˆæ— æ³•å»¶æ—¶åŠ è½½ï¼‰ã€‚ç±»åŠ è½½æ—¶ï¼Œçº¿ç¨‹æ˜¯å®‰å…¨çš„ï¼›
  * @author gpj
  *
  */
 public class Singleton2 implements Serializable{
 
 
-	//1.½«¹¹Ôì·½·¨Ë½ÓĞ»¯
+	//1.å°†æ„é€ æ–¹æ³•ç§æœ‰åŒ–
 	private Singleton2(){
 //		if(instance!=null){
 //			throw new RuntimeException();
 //		}
 	}
 	
-	//2.´´½¨ÀàµÄÎ¨Ò»ÊµÀı
+	//2.åˆ›å»ºç±»çš„å”¯ä¸€å®ä¾‹
 	private static Singleton2 instance = new Singleton2();
 	
-	//3.Ìá¹©Ò»¸öÓÃÓÚ»ñÈ¡ÊµÀıµÄ·½·¨
+	//3.æä¾›ä¸€ä¸ªç”¨äºè·å–å®ä¾‹çš„æ–¹æ³•
 	public static Singleton2 getInstance() {
 		return instance;
 	}
 	
-	//·´ĞòÁĞ»¯Ê±£¬Èç¹û¶¨ÒåÁËreadResolve()£¬Ö±½Óµ÷ÓÃ¸Ã·½·¨·µ»Ø¶ÔÏó¡£²»»áÔÙ´´½¨ĞÂ¶ÔÏó//»ùÓÚ»Øµ÷
+	//ååºåˆ—åŒ–æ—¶ï¼Œå¦‚æœå®šä¹‰äº†readResolve()ï¼Œç›´æ¥è°ƒç”¨è¯¥æ–¹æ³•è¿”å›å¯¹è±¡ã€‚ä¸ä¼šå†åˆ›å»ºæ–°å¯¹è±¡//åŸºäºå›è°ƒ
 //	private Object readResolve() throws ObjectStreamException{
 //		return instance;
 //	}

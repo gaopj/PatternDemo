@@ -1,18 +1,18 @@
-package gpj.singleton;
+ï»¿package gpj.singleton;
 
 /**
- * Ë«ÖØ¼ì²âÄ£Ê½
+ * åŒé‡æ£€æµ‹æ¨¡å¼
  * @author gpj
  *
  */
 public class Singleton3 {
-	//1.½«¹¹Ôì·½·¨Ë½ÓĞ»¯
+	//1.å°†æ„é€ æ–¹æ³•ç§æœ‰åŒ–
 	private Singleton3(){}
 	
-	//2.´´½¨ÀàµÄÎ¨Ò»ÊµÀı
+	//2.åˆ›å»ºç±»çš„å”¯ä¸€å®ä¾‹
 	private static Singleton3 instance;
 	
-	//3.Ìá¹©Ò»¸öÓÃÓÚ»ñÈ¡ÊµÀıµÄ·½·¨
+	//3.æä¾›ä¸€ä¸ªç”¨äºè·å–å®ä¾‹çš„æ–¹æ³•
 	public static Singleton3 getInstance() {
 		if(instance==null){
 			Singleton3 s;

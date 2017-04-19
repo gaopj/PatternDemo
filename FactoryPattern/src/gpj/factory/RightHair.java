@@ -1,6 +1,6 @@
-package gpj.factory;
+ï»¿package gpj.factory;
 /**
- * ÓÒÆ«·Ö
+ * å³ååˆ†
  * @author gpj
  *
  */
@@ -8,7 +8,7 @@ public class RightHair implements HairInterface {
 
 	@Override
 	public void draw() {
-		System.out.println("»­¸öÓÒÆ«·Ö");	
+		System.out.println("ç”»ä¸ªå³ååˆ†");	
 
 	}
 
