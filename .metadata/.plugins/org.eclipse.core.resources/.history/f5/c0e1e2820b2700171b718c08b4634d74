@@ -1,0 +1,15 @@
+package gpj.observer.weather;
+
+public class Client {
+
+	public static void main(String[] args) {
+		//1创建目标
+		
+		//2创建观察者
+		
+		//3注册观察者
+
+		//4目标处发布天气
+	}
+
+}

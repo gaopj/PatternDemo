@@ -1,0 +1,11 @@
+package gpj.observer.custom;
+
+public class ConcreteSubject extends Subject {
+
+	@Override
+	protected void notifyObservers() {
+		
+
+	}
+
+}

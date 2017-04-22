@@ -1,0 +1,44 @@
+package gpj.observer.custom;
+
+public class ConcreteObserver implements Observer {
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public String getRemindThing() {
+		return remindThing;
+	}
+
+	public void setRemindThing(String remindThing) {
+		this.remindThing = remindThing;
+	}
+
+	private String observerName;
+	
+	private String content;
+	
+	private String remindThing;
+	@Override
+	public void update(Subject subject) {
+		
+
+	}
+
+	@Override
+	public void setObserverName(String observerName) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String getObserverName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

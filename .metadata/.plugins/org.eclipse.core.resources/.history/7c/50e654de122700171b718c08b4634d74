@@ -1,0 +1,7 @@
+package gpj.observer.java;
+
+import java.util.Observable;
+
+public class ConcreteSubject extends Observable {
+
+}

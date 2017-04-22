@@ -1,0 +1,5 @@
+package gpj.observer.custom;
+
+public class Subject {
+
+}
