@@ -1,0 +1,11 @@
+package gpj.strategy;
+
+public class FlyStragetyNotFly implements FlyStragety {
+
+	@Override
+	public void performFly() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

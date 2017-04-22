@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="gpj.factory.PropertiesReader"/>
-<fullyQualifiedTypeName name="gpj.abstractFactory.MCBoy"/>
-<fullyQualifiedTypeName name="gpj.abstractFactory.MCGirl"/>
-<fullyQualifiedTypeName name="gpj.abstractFactory.HNBoy"/>
-<fullyQualifiedTypeName name="gpj.abstractFactory.HNGirl"/>
-<fullyQualifiedTypeName name="gpj.abstractFactory.PersonFactory"/>
-<fullyQualifiedTypeName name="gpj.abstractFactory.MCFactory"/>
 <fullyQualifiedTypeName name="gpj.abstractFactory.Boy"/>
 <fullyQualifiedTypeName name="gpj.abstractFactory.Girl"/>
 <fullyQualifiedTypeName name="gpj.singleton.Singleton3"/>
@@ -48,7 +41,6 @@
 <fullyQualifiedTypeName name="java.util.Observer"/>
 <fullyQualifiedTypeName name="gpj.observer.custom.Observer"/>
 <fullyQualifiedTypeName name="gpj.observer.custom.Subject"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="gpj.observer.custom.ConcreteSubject"/>
 <fullyQualifiedTypeName name="gpj.observer.custom.ConcreteObserver"/>
 <fullyQualifiedTypeName name="gpj.responsibilityChain.Customer"/>
@@ -56,8 +48,16 @@
 <fullyQualifiedTypeName name="gpj.responsibilityChain.Sales"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextExtPackage.AddressHelper"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="gpj.templateMethod.RefreshBeverage"/>
 <fullyQualifiedTypeName name="gpj.templateMethod.Coffee"/>
 <fullyQualifiedTypeName name="gpj.templateMethod.Tea"/>
+<fullyQualifiedTypeName name="gpj.strategy.FlyStragety"/>
+<fullyQualifiedTypeName name="gpj.strategy.FlyStragetyWithWing"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="gpj.strategy.Duck"/>
+<fullyQualifiedTypeName name="gpj.strategy.GreenDuck"/>
+<fullyQualifiedTypeName name="gpj.strategy.RedDuck"/>
+<fullyQualifiedTypeName name="gpj.strategy.FlyStragetyNotFly"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="gpj.strategy.RubberDuck"/>
 </qualifiedTypeNameHistroy>

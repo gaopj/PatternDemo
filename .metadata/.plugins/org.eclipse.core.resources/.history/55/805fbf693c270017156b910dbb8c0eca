@@ -1,0 +1,5 @@
+package gpj.strategy;
+
+public class Duck {
+
+}

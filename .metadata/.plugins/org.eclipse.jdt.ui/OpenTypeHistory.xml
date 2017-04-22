@@ -23,5 +23,7 @@
 <typeInfo handle="=ObserverPattern/src&lt;gpj.observer.custom{Subject.java[Subject" modifiers="1025" timestamp="1492836072055"/>
 <typeInfo handle="=ObserverPattern/src&lt;gpj.observer.custom{Observer.java[Observer" modifiers="513" timestamp="1492836272075"/>
 <typeInfo handle="=ResponsibilityChainPattern/src&lt;gpj.responsibilityChain{PriceHandler.java[PriceHandler" modifiers="1025" timestamp="1492849634063"/>
-<typeInfo handle="=TemplateMethodPattern/src&lt;gpj.templateMethod{RefreshBeverage.java[RefreshBeverage" modifiers="1025" timestamp="1492850149733"/>
+<typeInfo handle="=TemplateMethodPattern/src&lt;gpj.templateMethod{RefreshBeverage.java[RefreshBeverage" modifiers="1025" timestamp="1492851951169"/>
+<typeInfo handle="=StrategyPattern/src&lt;gpj.strategy{FlyStragety.java[FlyStragety" modifiers="513" timestamp="1492853630853"/>
+<typeInfo handle="=StrategyPattern/src&lt;gpj.strategy{Duck.java[Duck" modifiers="1025" timestamp="1492853672454"/>
 </typeInfoHistroy>

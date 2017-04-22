@@ -1,0 +1,10 @@
+package gpj.strategy;
+
+public class GreenDuck extends Duck {
+
+	@Override
+	public void display() {
+		System.out.println("我脖子绿色的");
+	}
+
+}
