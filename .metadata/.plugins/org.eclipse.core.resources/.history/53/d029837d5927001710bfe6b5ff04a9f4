@@ -1,0 +1,15 @@
+package gpj.appearance;
+
+public interface 银行 {
+	void openAccount(); //核名
+}
+
+class 工商银行 implements 银行{
+
+	@Override
+	public void openAccount() {
+		System.out.println("工商银行开户");
+		
+	}
+	
+}

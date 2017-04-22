@@ -1,0 +1,5 @@
+package gpj.facade;
+
+public class RegisterFacade {
+
+}
