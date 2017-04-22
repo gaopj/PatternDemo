@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="gpj.abstractFactory.Boy"/>
-<fullyQualifiedTypeName name="gpj.abstractFactory.Girl"/>
-<fullyQualifiedTypeName name="gpj.singleton.Singleton3"/>
-<fullyQualifiedTypeName name="java.lang.Class"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
-<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
-<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.io.ObjectStreamException"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="gpj.singleton.Singleton"/>
 <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
 <fullyQualifiedTypeName name="gpj.singleton.SingletonLazy"/>
@@ -53,11 +40,24 @@
 <fullyQualifiedTypeName name="gpj.templateMethod.Tea"/>
 <fullyQualifiedTypeName name="gpj.strategy.FlyStragety"/>
 <fullyQualifiedTypeName name="gpj.strategy.FlyStragetyWithWing"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="gpj.strategy.Duck"/>
 <fullyQualifiedTypeName name="gpj.strategy.GreenDuck"/>
 <fullyQualifiedTypeName name="gpj.strategy.RedDuck"/>
 <fullyQualifiedTypeName name="gpj.strategy.FlyStragetyNotFly"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="gpj.strategy.RubberDuck"/>
+<fullyQualifiedTypeName name="gpj.builder.AirShipBuilder"/>
+<fullyQualifiedTypeName name="gpj.builder.Engine"/>
+<fullyQualifiedTypeName name="gpj.builder.EscapeTower"/>
+<fullyQualifiedTypeName name="gpj.builder.OrbitalModule"/>
+<fullyQualifiedTypeName name="gpj.builder.AirShip"/>
+<fullyQualifiedTypeName name="gpj.builder.AirShipDirector"/>
+<fullyQualifiedTypeName name="gpj.builder.JizaiAirshipDirector"/>
+<fullyQualifiedTypeName name="gpj.builder.JizaiAirShipBuilder"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="gpj.prototype.Sheep"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

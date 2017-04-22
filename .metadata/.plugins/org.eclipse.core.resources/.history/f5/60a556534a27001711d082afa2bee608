@@ -1,0 +1,12 @@
+package gpj.prototype;
+
+import java.util.Date;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Sheep s1 = new Sheep("jizai",new Date());
+
+	}
+
+}
