@@ -1,0 +1,46 @@
+package gpj.composite;
+
+//抽象构建
+public interface AbstractFile {
+
+	void killVirus();
+}
+
+class ImageFile implements AbstractFile{
+	public ImageFile(String name) {
+		super();
+		this.name = name;
+	}
+	private String name;
+	@Override
+	public void killVirus() {
+		System.out.println("图像文件："+name+",杀！");
+		
+	}
+}
+
+class TextFile implements AbstractFile{
+	public TextFile(String name) {
+		super();
+		this.name = name;
+	}
+	private String name;
+	@Override
+	public void killVirus() {
+		System.out.println("文本文件："+name+",杀！");
+		
+	}
+}
+
+class VideoFile implements AbstractFile{
+	public VideoFile(String name) {
+		super();
+		this.name = name;
+	}
+	private String name;
+	@Override
+	public void killVirus() {
+		System.out.println("视频文件："+name+",杀！");
+		
+	}
+}
