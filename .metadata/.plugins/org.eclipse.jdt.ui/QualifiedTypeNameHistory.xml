@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="gpj.adapter.GBTwoPlug"/>
-<fullyQualifiedTypeName name="gpj.adapter.TwoPlugAdapterExtends"/>
-<fullyQualifiedTypeName name="gpj.adapter.NoteBook"/>
-<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
-<fullyQualifiedTypeName name="gpj.adapter2.Client"/>
 <fullyQualifiedTypeName name="gpj.adapter2.Target"/>
 <fullyQualifiedTypeName name="gpj.adapter2.Adapter"/>
 <fullyQualifiedTypeName name="gpj.adapter2.Adaptee"/>
@@ -59,5 +54,10 @@
 <fullyQualifiedTypeName name="gpj.composite.TextFile"/>
 <fullyQualifiedTypeName name="gpj.composite.Folder"/>
 <fullyQualifiedTypeName name="gpj.composite.VideoFile"/>
+<fullyQualifiedTypeName name="gpj.decorator.ICar"/>
+<fullyQualifiedTypeName name="gpj.decorator.SuperCar"/>
+<fullyQualifiedTypeName name="gpj.decorator.Car"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="gpj.decorator.FlyCar"/>
+<fullyQualifiedTypeName name="gpj.decorator.WaterCar"/>
 </qualifiedTypeNameHistroy>
