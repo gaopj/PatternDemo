@@ -1,0 +1,11 @@
+package gpj.builder;
+
+public class JizaiAirshipDirector implements AirShipDirector {
+
+	@Override
+	public AirShip directorAirShip() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

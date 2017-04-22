@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;gpj.builder.JizaiAirShip&apos; to &apos;JizaiAirShipBuilder&apos;&#x0D;&#x0A;- Original project: &apos;BuilderPatern&apos;&#x0D;&#x0A;- Original element: &apos;gpj.builder.JizaiAirShip&apos;&#x0D;&#x0A;- Renamed element: &apos;gpj.builder.JizaiAirShipBuilder&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;JizaiAirShip&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;gpj.builder{JizaiAirShip.java[JizaiAirShip" matchStrategy="1" name="JizaiAirShipBuilder" qualified="false" references="true" similarDeclarations="false" stamp="1492855944529" textual="false" version="1.0"/>
+</session>

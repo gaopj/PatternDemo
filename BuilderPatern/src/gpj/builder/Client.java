@@ -1,0 +1,15 @@
+package gpj.builder;
+
+public class Client {
+
+	public static void main(String[] args) {
+		AirShipDirector airShipDirector = new JizaiAirshipDirector(new JizaiAirShipBuilder());
+		AirShip ship =airShipDirector.directorAirShip();
+		
+		System.out.println(ship.getEngine().getName());
+		
+		ship.launch();
+
+	}
+
+}
