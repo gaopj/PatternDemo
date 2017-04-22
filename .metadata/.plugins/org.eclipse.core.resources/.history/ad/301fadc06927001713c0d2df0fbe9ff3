@@ -1,0 +1,13 @@
+package gpj.flyWeight;
+
+public class Client {
+
+	public static void main(String[] args) {
+		ChessFlyWeight chessFlyWeight1= ChessFlyWeightFactory.getChess("黑色");
+		ChessFlyWeight chessFlyWeight2= ChessFlyWeightFactory.getChess("黑色");
+		System.out.println(chessFlyWeight1);
+		System.out.println(chessFlyWeight2);
+
+	}
+
+}
