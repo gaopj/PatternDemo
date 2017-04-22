@@ -22,4 +22,6 @@
 <typeInfo handle="=ObserverPattern/E:\/JAVA\/jre\/lib\/rt.jar&lt;java.util.function(ObjIntConsumer.class[ObjIntConsumer" modifiers="1537" timestamp="1490099243525"/>
 <typeInfo handle="=ObserverPattern/src&lt;gpj.observer.custom{Subject.java[Subject" modifiers="1025" timestamp="1492836072055"/>
 <typeInfo handle="=ObserverPattern/src&lt;gpj.observer.custom{Observer.java[Observer" modifiers="513" timestamp="1492836272075"/>
+<typeInfo handle="=ResponsibilityChainPattern/src&lt;gpj.responsibilityChain{PriceHandler.java[PriceHandler" modifiers="1025" timestamp="1492849634063"/>
+<typeInfo handle="=TemplateMethodPattern/src&lt;gpj.templateMethod{RefreshBeverage.java[RefreshBeverage" modifiers="1025" timestamp="1492850149733"/>
 </typeInfoHistroy>

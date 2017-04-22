@@ -1,0 +1,17 @@
+package gpj.templateMethod;
+
+public class Coffee extends RefreshBeverage {
+
+	@Override
+	protected void brew() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void boilWater() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
