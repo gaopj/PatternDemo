@@ -1,10 +1,11 @@
 ﻿package gpj.myProxy;
 public class $Proxy0 implements Moveable{
-	public $Proxy0(gpj.myProxy.Moveable m) {
+	private Moveable m;
+	public $Proxy0(Moveable m) {
 		super();
 		this.m = m;
 	}
-	private Moveablem m;
+
 	@Override
 	public void move() {
 		long startTime = System.currentTimeMillis();

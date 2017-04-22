@@ -1,0 +1,30 @@
+package gpj.responsibilityChain;
+/**
+ * 价格处理类，负责处理客户折扣申请
+ * @author gpj
+ *
+ */
+public abstract class PriceHandler {
+
+	/**
+	 * 直接后继用于传递请求
+	 */
+	protected PriceHandler successor;
+
+	public void setSuccessor(PriceHandler successor) {
+		this.successor = successor;
+	}
+	
+	public abstract void processDiscount(float discount);
+
+	
+	//创建PriceHandler的工厂方法
+	public static PriceHandler createPriceHandler() {
+		PriceHandler sales = new Sales();
+		PriceHandler sales2 = new Sales2();
+		PriceHandler sales3 = new Sales3();
+		sales.setSuccessor(sales2);
+		sales.setSuccessor(sales3);
+		return sales;
+	} 
+}

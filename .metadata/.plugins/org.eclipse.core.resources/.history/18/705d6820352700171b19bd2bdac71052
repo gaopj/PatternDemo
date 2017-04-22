@@ -1,0 +1,13 @@
+package gpj.responsibilityChain;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Customer customer = new Customer();
+		
+		customer.setPriceHandler(PriceHandler.createPriceHandler());
+
+	}
+	
+
+}

@@ -1,0 +1,11 @@
+package gpj.responsibilityChain;
+
+public class Sales extends PriceHandler {
+
+	@Override
+	public void processDiscount(float dicount) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

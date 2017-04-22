@@ -1,0 +1,5 @@
+package gpj.responsibilityChain;
+
+public class PriceHandler {
+
+}

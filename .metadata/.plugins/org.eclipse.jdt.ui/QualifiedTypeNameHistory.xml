@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="gpj.proxy.myPcopy.Proxy"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
-<fullyQualifiedTypeName name="javax.tools.JavaCompiler"/>
-<fullyQualifiedTypeName name="javax.tools.ToolProvider"/>
-<fullyQualifiedTypeName name="java.lang.Iterable"/>
-<fullyQualifiedTypeName name="javax.tools.JavaCompiler.CompilationTask"/>
-<fullyQualifiedTypeName name="java.lang.ClassLoader"/>
-<fullyQualifiedTypeName name="javax.tools.StandardJavaFileManager"/>
-<fullyQualifiedTypeName name="gpj.myProxy.Moveable"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-<fullyQualifiedTypeName name="gpj.myProxy.Car"/>
-<fullyQualifiedTypeName name="gpj.myProxy.InvocationHandler"/>
-<fullyQualifiedTypeName name="gpj.myProxy.TimeHandler"/>
-<fullyQualifiedTypeName name="gpj.factory.LeftHair"/>
 <fullyQualifiedTypeName name="gpj.factory.RightHair"/>
 <fullyQualifiedTypeName name="gpj.factory.HairFactory"/>
 <fullyQualifiedTypeName name="gpj.factory.HairInterface"/>
@@ -23,7 +8,6 @@
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="gpj.factory.PropertiesReader"/>
 <fullyQualifiedTypeName name="gpj.abstractFactory.MCBoy"/>
 <fullyQualifiedTypeName name="gpj.abstractFactory.MCGirl"/>
@@ -54,10 +38,26 @@
 <fullyQualifiedTypeName name="gpj.adapter.GBTwoPlug"/>
 <fullyQualifiedTypeName name="gpj.adapter.TwoPlugAdapterExtends"/>
 <fullyQualifiedTypeName name="gpj.adapter.NoteBook"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
 <fullyQualifiedTypeName name="gpj.adapter2.Client"/>
 <fullyQualifiedTypeName name="gpj.adapter2.Target"/>
 <fullyQualifiedTypeName name="gpj.adapter2.Adapter"/>
 <fullyQualifiedTypeName name="gpj.adapter2.Adaptee"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="gpj.observer.Observer"/>
+<fullyQualifiedTypeName name="gpj.observer.ConcreteSubject"/>
+<fullyQualifiedTypeName name="gpj.observer.weather.ConcreteWeatherSubject"/>
+<fullyQualifiedTypeName name="gpj.observer.weather.ConcreteObserver"/>
+<fullyQualifiedTypeName name="gpj.observer.weather.WeatherSubject"/>
+<fullyQualifiedTypeName name="gpj.observer.java.ConcreteSubject"/>
+<fullyQualifiedTypeName name="gpj.observer.java.ConcreteObserver"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="gpj.observer.custom.Observer"/>
+<fullyQualifiedTypeName name="gpj.observer.custom.Subject"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="gpj.observer.custom.ConcreteSubject"/>
+<fullyQualifiedTypeName name="gpj.observer.custom.ConcreteObserver"/>
 </qualifiedTypeNameHistroy>
