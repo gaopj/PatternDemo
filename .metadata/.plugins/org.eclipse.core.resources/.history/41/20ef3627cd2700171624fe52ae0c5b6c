@@ -1,0 +1,23 @@
+package gpj.mediator;
+
+public class Market implements Department {
+
+	public Market(Mediator m) {
+		super();
+		this.m = m;
+		m.register("market", this);
+	}
+	private Mediator m;
+	@Override
+	public void selfAction() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void outAction() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

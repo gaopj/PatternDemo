@@ -1,0 +1,5 @@
+package gpj.mediator;
+
+public interface Department {
+
+}

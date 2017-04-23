@@ -1,0 +1,17 @@
+package gpj.mediator;
+
+public class President implements Mediator {
+
+	@Override
+	public void register(String dname, Department d) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void command(String dname) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
