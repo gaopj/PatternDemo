@@ -29,4 +29,6 @@
 <typeInfo handle="=BuilderPatern/src&lt;gpj.builder{AirShipDirector.java[AirShipDirector" modifiers="513" timestamp="1492855871583"/>
 <typeInfo handle="=MediatorPattern/src&lt;gpj.mediator{Department.java[Department" modifiers="513" timestamp="1492914321046"/>
 <typeInfo handle="=MediatorPattern/src&lt;gpj.mediator{Mediator.java[Mediator" modifiers="513" timestamp="1492914301603"/>
+<typeInfo handle="=StatePattern/E:\/JAVA\/jre\/lib\/rt.jar&lt;javax.xml.stream.events(StartDocument.class[StartDocument" modifiers="1537" timestamp="1490099243525"/>
+<typeInfo handle="=StatePattern/src&lt;gpj.state{State.java[State" modifiers="513" timestamp="1492926670630"/>
 </typeInfoHistroy>

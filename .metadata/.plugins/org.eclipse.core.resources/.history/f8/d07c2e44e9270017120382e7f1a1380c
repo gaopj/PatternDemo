@@ -1,0 +1,11 @@
+package gpj.state;
+
+public class BookedState implements State {
+
+	@Override
+	public void handle() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
