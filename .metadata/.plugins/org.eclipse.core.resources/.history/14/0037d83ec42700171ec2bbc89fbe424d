@@ -1,0 +1,14 @@
+package gpj.iterator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 自定义的聚合类
+ * @author gpj
+ *
+ */
+public class ConcreteMyAggregate {
+
+	public List<Object> list = new ArrayList<>()
+}

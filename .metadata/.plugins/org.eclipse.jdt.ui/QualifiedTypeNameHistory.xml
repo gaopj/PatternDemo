@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="gpj.observer.custom.Observer"/>
-<fullyQualifiedTypeName name="gpj.observer.custom.Subject"/>
 <fullyQualifiedTypeName name="gpj.observer.custom.ConcreteSubject"/>
 <fullyQualifiedTypeName name="gpj.observer.custom.ConcreteObserver"/>
 <fullyQualifiedTypeName name="gpj.responsibilityChain.Customer"/>
@@ -29,12 +27,9 @@
 <fullyQualifiedTypeName name="gpj.builder.JizaiAirShipBuilder"/>
 <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
 <fullyQualifiedTypeName name="java.lang.Cloneable"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="gpj.prototype.Sheep"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="gpj.composite.Component"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
 <fullyQualifiedTypeName name="gpj.composite.AbstractFile"/>
 <fullyQualifiedTypeName name="gpj.composite.ImageFile"/>
@@ -58,6 +53,11 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="gpj.flyWeight.ConcreteChess"/>
 <fullyQualifiedTypeName name="gpj.flyWeight.ChessFlyWeight"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="gpj.flyWeight.Coordinate"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="gpj.iterator.ConcreteMyAggregate"/>
+<fullyQualifiedTypeName name="gpj.iterator.MyIterator"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
