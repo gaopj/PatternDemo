@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="gpj.strategy.RedDuck"/>
-<fullyQualifiedTypeName name="gpj.strategy.FlyStragetyNotFly"/>
-<fullyQualifiedTypeName name="gpj.strategy.RubberDuck"/>
-<fullyQualifiedTypeName name="gpj.builder.AirShipBuilder"/>
 <fullyQualifiedTypeName name="gpj.builder.Engine"/>
 <fullyQualifiedTypeName name="gpj.builder.EscapeTower"/>
 <fullyQualifiedTypeName name="gpj.builder.OrbitalModule"/>
@@ -38,12 +34,9 @@
 <fullyQualifiedTypeName name="gpj.flyWeight.ConcreteChess"/>
 <fullyQualifiedTypeName name="gpj.flyWeight.ChessFlyWeight"/>
 <fullyQualifiedTypeName name="gpj.flyWeight.Coordinate"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="gpj.iterator.ConcreteMyAggregate"/>
 <fullyQualifiedTypeName name="gpj.iterator.MyIterator"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="gpj.mediator.Department"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="gpj.mediator.Mediator"/>
@@ -55,9 +48,16 @@
 <fullyQualifiedTypeName name="gpj.command.ConcreteCommand"/>
 <fullyQualifiedTypeName name="gpj.command.Receiver"/>
 <fullyQualifiedTypeName name="gpj.command.Invoke"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="gpj.state.State"/>
 <fullyQualifiedTypeName name="gpj.state.Context"/>
 <fullyQualifiedTypeName name="gpj.state.FreeState"/>
 <fullyQualifiedTypeName name="gpj.state.BookedState"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="gpj.memento.EmpMemento"/>
+<fullyQualifiedTypeName name="gpj.memento.CareTake"/>
+<fullyQualifiedTypeName name="gpj.memento.CareTaker"/>
+<fullyQualifiedTypeName name="gpj.memento.Emp"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

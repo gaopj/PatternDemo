@@ -1,0 +1,37 @@
+package gpj.memento;
+/**
+ * 源发器类
+ * @author gpj
+ *
+ */
+public class Emp {
+	private String ename;
+	private int age;
+	private int salary;
+	public Emp(String ename, int age, int salary) {
+		super();
+		this.ename = ename;
+		this.age = age;
+		this.salary = salary;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+
+	
+}
