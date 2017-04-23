@@ -27,4 +27,6 @@
 <typeInfo handle="=StrategyPattern/src&lt;gpj.strategy{FlyStragety.java[FlyStragety" modifiers="513" timestamp="1492853630853"/>
 <typeInfo handle="=StrategyPattern/src&lt;gpj.strategy{Duck.java[Duck" modifiers="1025" timestamp="1492853672454"/>
 <typeInfo handle="=BuilderPatern/src&lt;gpj.builder{AirShipDirector.java[AirShipDirector" modifiers="513" timestamp="1492855871583"/>
+<typeInfo handle="=MediatorPattern/src&lt;gpj.mediator{Department.java[Department" modifiers="513" timestamp="1492914321046"/>
+<typeInfo handle="=MediatorPattern/src&lt;gpj.mediator{Mediator.java[Mediator" modifiers="513" timestamp="1492914301603"/>
 </typeInfoHistroy>

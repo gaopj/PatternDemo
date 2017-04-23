@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="gpj.observer.custom.ConcreteSubject"/>
-<fullyQualifiedTypeName name="gpj.observer.custom.ConcreteObserver"/>
-<fullyQualifiedTypeName name="gpj.responsibilityChain.Customer"/>
-<fullyQualifiedTypeName name="gpj.responsibilityChain.PriceHandler"/>
-<fullyQualifiedTypeName name="gpj.responsibilityChain.Sales"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextExtPackage.AddressHelper"/>
-<fullyQualifiedTypeName name="gpj.templateMethod.RefreshBeverage"/>
-<fullyQualifiedTypeName name="gpj.templateMethod.Coffee"/>
-<fullyQualifiedTypeName name="gpj.templateMethod.Tea"/>
 <fullyQualifiedTypeName name="gpj.strategy.FlyStragety"/>
 <fullyQualifiedTypeName name="gpj.strategy.FlyStragetyWithWing"/>
 <fullyQualifiedTypeName name="gpj.strategy.Duck"/>
@@ -49,8 +39,6 @@
 <fullyQualifiedTypeName name="gpj.facade.RegisterFacade"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="gpj.flyWeight.ConcreteChess"/>
 <fullyQualifiedTypeName name="gpj.flyWeight.ChessFlyWeight"/>
 <fullyQualifiedTypeName name="gpj.flyWeight.Coordinate"/>
@@ -59,5 +47,17 @@
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="gpj.iterator.ConcreteMyAggregate"/>
 <fullyQualifiedTypeName name="gpj.iterator.MyIterator"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="gpj.mediator.Department"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="gpj.mediator.Mediator"/>
+<fullyQualifiedTypeName name="gpj.mediator.President"/>
+<fullyQualifiedTypeName name="gpj.mediator.Market"/>
+<fullyQualifiedTypeName name="gpj.mediator.Development"/>
+<fullyQualifiedTypeName name="gpj.mediator.Finacial"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="gpj.command.Command"/>
+<fullyQualifiedTypeName name="gpj.command.ConcreteCommand"/>
+<fullyQualifiedTypeName name="gpj.command.Receiver"/>
+<fullyQualifiedTypeName name="gpj.command.Invoke"/>
 </qualifiedTypeNameHistroy>
